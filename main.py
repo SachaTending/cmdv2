@@ -48,4 +48,4 @@ colors.print_color(colors.get_color("Fore", "white"))
 cmd.plugins.load(shell=shell, cmd=cmd, colors=colors)
 
 try: shell.run()
-except KeyboardInterrupt: print("Bye!")
+except KeyboardInterrupt: print("Bye!");input()
